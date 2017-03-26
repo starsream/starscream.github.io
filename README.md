@@ -1,4 +1,177 @@
 # starscream.github.io
-<!DOCTAYPE HTML>
-<head></head>
-<body>hello world!</body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Get a green start with Meridien GreenStart</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0px;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 950px;
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	border: 3px solid #090;
+}
+.container #logo {
+	height: 150px;
+	width: 170px;
+	top: 50px;
+	margin-left: 30px;
+	float: left;
+	margin-top: 50px;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+/* ~~ The footer ~~ */
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+	margin-right: 15px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.gtxt {
+	font-weight: bolder;
+	color: #090;
+}
+table {
+	border: 1px solid #000;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+table th {
+	color: #FFF;
+	background-color: #090;
+	padding: 10px;
+}
+table td {
+	font-size: 90%;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #090;
+	vertical-align: top;
+	padding: 10px;
+}
+#tips {
+	width: 915px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+header {
+	background: #ADB96E;
+}
+
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 5px 0;
+	background-color: #090;
+	color: #FFF;
+	font-size: 90%;
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+-->
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+<body>
+
+<div class="container">
+  <header>
+    <a href="#"><img src="images/banner2.jpg" alt="Insert Logo Here" name="Insert_logo" width="950" height="206" id="Insert_logo" style="background: #C6D580; display:block;" /></a>
+  </header>
+  <article class="content">
+    <h1>Start now with Meridien <span class="gtxt">Green</span>Start </h1>
+    <section>
+      <p><img src="/images/butterfly-ovr.png" alt="Buttlerfly" width="170" height="158" class="fltrt" />Welcome to <strong>Meridien</strong> <span class="gtxt">Green</span><strong>Start</strong>, the community of the environmentally aware. We strive to live and work in ways that have zero impact across the board. Conserve, recycle, and reuse is our motto. Join us and help save the planet and our way of life for us and our posterity. There are many things you can do to reduce your carbon footprint. Every little bit helps. But don't wait, start <strong>now</strong>, with <span class="gtxt">Green</span><strong>Start</strong>!</p>
+      <p>Here are some simple ways you can start today:</p>
+      <table border="0" align="center" cellpadding="0" cellspacing="0" id="tips">
+        <tr>
+          <th width="33%">At Home</th>
+          <th width="33%">At Work</th>
+          <th width="33%">In the Community</th>
+        </tr>
+        <tr>
+          <td>Wash clothes in cold water.</td>
+          <td>Use recycled paper.</td>
+          <td>Carpool with neighbors to school.</td>
+        </tr>
+        <tr>
+          <td>Hang clothes to dry.</td>
+          <td>Send electronic 
+            instead of <br />
+            paper documents.</td>
+          <td>Put the leafblowers away and <br />
+            get out the rakes.</td>
+        </tr>
+        <tr>
+          <td>Turn off lights in empty rooms.</td>
+          <td>Provide ceramic coffee cups to employees</td>
+          <td>Water early in the morning or <br />
+            after the sun sets.</td>
+        </tr>
+      </table>
+    </section>
+    <!-- end .content -->
+  </article>
+  <footer>
+    <h3>Copyright 2013 GreenStart, All Rights Reserved.</h3>
+  </footer>
+  <!-- end .container --></div>
+</body>
+</html>
